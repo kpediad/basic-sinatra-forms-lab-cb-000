@@ -10,7 +10,4 @@ class App < Sinatra::Base
     @team = params[]
     erb :team
   end
-
-
-
 end
